@@ -1,0 +1,1573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainDlg</class>
+ <widget class="QDialog" name="MainDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainDlg</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(211, 215, 207);
+background-image: url(:/image/main_menu/beijing.png);</string>
+  </property>
+  <widget class="QLabel" name="label_beijing">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>140</y>
+     <width>898</width>
+     <height>498</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/beijing2.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_xiaowo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>265</width>
+     <height>256</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="touch_Btn">
+   <property name="geometry">
+    <rect>
+     <x>379</x>
+     <y>191</y>
+     <width>92</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/recv.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="FM_Btn">
+   <property name="geometry">
+    <rect>
+     <x>504</x>
+     <y>191</y>
+     <width>92</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/recv.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_Btn">
+   <property name="geometry">
+    <rect>
+     <x>629</x>
+     <y>191</y>
+     <width>92</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/recv.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="canBtn">
+   <property name="geometry">
+    <rect>
+     <x>754</x>
+     <y>191</y>
+     <width>92</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/recv.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="color_btn">
+   <property name="geometry">
+    <rect>
+     <x>879</x>
+     <y>191</y>
+     <width>92</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/recv.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AHD_Btn">
+   <property name="geometry">
+    <rect>
+     <x>1004</x>
+     <y>191</y>
+     <width>92</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/recv.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="WiFi_Btn">
+   <property name="geometry">
+    <rect>
+     <x>1129</x>
+     <y>191</y>
+     <width>92</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/recv.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_39">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>260</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>触摸</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_40">
+   <property name="geometry">
+    <rect>
+     <x>415</x>
+     <y>210</y>
+     <width>21</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/touch.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>536</x>
+     <y>210</y>
+     <width>27</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/fm.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_41">
+   <property name="geometry">
+    <rect>
+     <x>504</x>
+     <y>256</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>FM</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>665</x>
+     <y>210</y>
+     <width>18</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/bt_btn.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_42">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>260</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>蓝牙</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_19">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>210</y>
+     <width>40</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/CAN.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_43">
+   <property name="geometry">
+    <rect>
+     <x>754</x>
+     <y>260</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>CAN收发</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_20">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>210</y>
+     <width>31</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/color.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_44">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>260</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>颜色</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_21">
+   <property name="geometry">
+    <rect>
+     <x>1034</x>
+     <y>210</y>
+     <width>32</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/video.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_45">
+   <property name="geometry">
+    <rect>
+     <x>1005</x>
+     <y>260</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>AHD摄像头</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_22">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>210</y>
+     <width>32</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/WIFI.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_46">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>260</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>WiFi</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_23">
+   <property name="geometry">
+    <rect>
+     <x>414</x>
+     <y>350</y>
+     <width>25</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/file.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_47">
+   <property name="geometry">
+    <rect>
+     <x>381</x>
+     <y>400</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>读写文件</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_24">
+   <property name="geometry">
+    <rect>
+     <x>537</x>
+     <y>350</y>
+     <width>26</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/time.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_48">
+   <property name="geometry">
+    <rect>
+     <x>503</x>
+     <y>400</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>时间设置</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_25">
+   <property name="geometry">
+    <rect>
+     <x>662</x>
+     <y>350</y>
+     <width>26</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/SN.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_49">
+   <property name="geometry">
+    <rect>
+     <x>631</x>
+     <y>400</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>读写SN</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_26">
+   <property name="geometry">
+    <rect>
+     <x>788</x>
+     <y>350</y>
+     <width>23</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/face.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_50">
+   <property name="geometry">
+    <rect>
+     <x>753</x>
+     <y>400</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>人脸识别</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_27">
+   <property name="geometry">
+    <rect>
+     <x>913</x>
+     <y>350</y>
+     <width>24</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/ahd2.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_51">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>400</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>变焦摄像头</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_28">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>350</y>
+     <width>20</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/speech.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_52">
+   <property name="geometry">
+    <rect>
+     <x>1004</x>
+     <y>400</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>语音识别</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_29">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>350</y>
+     <width>26</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/health.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_53">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>400</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>自动切图</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backlight_Btn">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>480</y>
+     <width>399</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>399</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>444444</width>
+     <height>444444</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/recv_14.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="warn_Btn">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>480</y>
+     <width>399</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>399</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>444444</width>
+     <height>444444</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/recv_14.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_30">
+   <property name="geometry">
+    <rect>
+     <x>566</x>
+     <y>500</y>
+     <width>26</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/GPS.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_54">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>540</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>背光</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_55">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>540</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>蜂鸣器</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_31">
+   <property name="geometry">
+    <rect>
+     <x>1005</x>
+     <y>500</y>
+     <width>30</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/upan.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="File_Btn">
+   <property name="geometry">
+    <rect>
+     <x>379</x>
+     <y>331</y>
+     <width>92</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/recv.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SN_Btn">
+   <property name="geometry">
+    <rect>
+     <x>629</x>
+     <y>331</y>
+     <width>92</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/recv.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="face_Btn">
+   <property name="geometry">
+    <rect>
+     <x>754</x>
+     <y>331</y>
+     <width>92</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/recv.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="time_Btn">
+   <property name="geometry">
+    <rect>
+     <x>504</x>
+     <y>331</y>
+     <width>92</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/recv.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="voice_Btn">
+   <property name="geometry">
+    <rect>
+     <x>1004</x>
+     <y>331</y>
+     <width>92</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/recv.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="health_Btn">
+   <property name="geometry">
+    <rect>
+     <x>1129</x>
+     <y>331</y>
+     <width>92</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/recv.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ahd2_Btn">
+   <property name="geometry">
+    <rect>
+     <x>879</x>
+     <y>331</y>
+     <width>92</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>92</width>
+     <height>91</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/recv.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="time_dis_lab">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>459</y>
+     <width>281</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sarai</family>
+     <pointsize>24</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>14:58</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="time2_dis_lab">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>540</y>
+     <width>291</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Mono</family>
+     <pointsize>8</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>2023.07.20 星期四</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="time3_dis_lab">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>10</y>
+     <width>291</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Mono</family>
+     <pointsize>8</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="app_Btn">
+   <property name="geometry">
+    <rect>
+     <x>111</x>
+     <y>674</y>
+     <width>35</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>35</width>
+     <height>36</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>35</width>
+     <height>36</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/application.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fm3_Btn">
+   <property name="geometry">
+    <rect>
+     <x>286</x>
+     <y>675</y>
+     <width>33</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>33</width>
+     <height>34</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>33</width>
+     <height>34</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/fm3.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="video2_Btn">
+   <property name="geometry">
+    <rect>
+     <x>459</x>
+     <y>679</y>
+     <width>41</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>41</width>
+     <height>27</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>41</width>
+     <height>27</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/video_4.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt2_Btn">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>674</y>
+     <width>22</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>22</width>
+     <height>36</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>22</width>
+     <height>36</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/bt_down2.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="map_Btn">
+   <property name="geometry">
+    <rect>
+     <x>802</x>
+     <y>676</y>
+     <width>33</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>33</width>
+     <height>33</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>33</width>
+     <height>33</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/map.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Set_Btn">
+   <property name="geometry">
+    <rect>
+     <x>975</x>
+     <y>674</y>
+     <width>34</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>34</width>
+     <height>36</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>34</width>
+     <height>36</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/set.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Music_Btn">
+   <property name="geometry">
+    <rect>
+     <x>1149</x>
+     <y>677</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>31</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>31</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/main_menu/music.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="time2_dis_lab_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>10</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Mono</family>
+     <pointsize>8</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>3.01.8332A04-v1.0.2_0323</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <zorder>video2_Btn</zorder>
+  <zorder>label_beijing</zorder>
+  <zorder>label_xiaowo</zorder>
+  <zorder>label_39</zorder>
+  <zorder>label_40</zorder>
+  <zorder>label_18</zorder>
+  <zorder>label_42</zorder>
+  <zorder>label_19</zorder>
+  <zorder>label_43</zorder>
+  <zorder>label_20</zorder>
+  <zorder>label_44</zorder>
+  <zorder>label_21</zorder>
+  <zorder>label_45</zorder>
+  <zorder>label_22</zorder>
+  <zorder>label_46</zorder>
+  <zorder>backlight_Btn</zorder>
+  <zorder>warn_Btn</zorder>
+  <zorder>label_30</zorder>
+  <zorder>label_54</zorder>
+  <zorder>label_55</zorder>
+  <zorder>label_31</zorder>
+  <zorder>label_23</zorder>
+  <zorder>label_47</zorder>
+  <zorder>label_25</zorder>
+  <zorder>label_49</zorder>
+  <zorder>label_26</zorder>
+  <zorder>label_50</zorder>
+  <zorder>label_24</zorder>
+  <zorder>label_48</zorder>
+  <zorder>label_28</zorder>
+  <zorder>label_52</zorder>
+  <zorder>label_27</zorder>
+  <zorder>label_51</zorder>
+  <zorder>time_dis_lab</zorder>
+  <zorder>time2_dis_lab</zorder>
+  <zorder>time3_dis_lab</zorder>
+  <zorder>app_Btn</zorder>
+  <zorder>fm3_Btn</zorder>
+  <zorder>bt2_Btn</zorder>
+  <zorder>map_Btn</zorder>
+  <zorder>Set_Btn</zorder>
+  <zorder>Music_Btn</zorder>
+  <zorder>touch_Btn</zorder>
+  <zorder>File_Btn</zorder>
+  <zorder>voice_Btn</zorder>
+  <zorder>WiFi_Btn</zorder>
+  <zorder>SN_Btn</zorder>
+  <zorder>ahd2_Btn</zorder>
+  <zorder>color_btn</zorder>
+  <zorder>face_Btn</zorder>
+  <zorder>time_Btn</zorder>
+  <zorder>canBtn</zorder>
+  <zorder>bt_Btn</zorder>
+  <zorder>AHD_Btn</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_41</zorder>
+  <zorder>FM_Btn</zorder>
+  <zorder>label_53</zorder>
+  <zorder>label_29</zorder>
+  <zorder>health_Btn</zorder>
+  <zorder>time2_dis_lab_2</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

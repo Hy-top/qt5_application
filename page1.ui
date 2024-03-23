@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>page1</class>
+ <widget class="QWidget" name="page1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#page1
+{
+	background-image: url(:/image/main_menu/background2.png);
+}</string>
+  </property>
+  <widget class="QLabel" name="time_dis_lab">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>211</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Mono</family>
+     <pointsize>8</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>217</x>
+     <y>80</y>
+     <width>849</width>
+     <height>58</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/FM/biaoti.png);</string>
+   </property>
+   <property name="text">
+    <string>CAN测试</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closeBtn">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>116</width>
+     <height>58</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>116</width>
+     <height>58</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>116</width>
+     <height>58</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/FM/close_btn.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>1220</x>
+     <y>20</y>
+     <width>21</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/4g.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>20</y>
+     <width>32</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/WIFI.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>1180</x>
+     <y>20</y>
+     <width>15</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/bt_down.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="can1sendLab">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>200</y>
+     <width>161</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/recv5.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="can1sendBtn">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>200</y>
+     <width>141</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>CAN1发送</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="can2sendLab">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>310</y>
+     <width>161</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/recv5.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="can2sendBtn">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>310</y>
+     <width>141</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>CAN2发送</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="can1sendclearBtn">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>200</y>
+     <width>71</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>clear</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="can2sendclearBtn">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>310</y>
+     <width>71</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>clear</string>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>170</y>
+     <width>361</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(46, 52, 54);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_can_send_interval">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>40</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>100ms</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>40</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>周期:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_can_send_interval">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>34</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_21">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>160</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>CAN2波特率</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_20">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>100</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>CAN1波特率</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_can1_set">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(115, 210, 22);</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_can0_set">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(115, 210, 22);</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="can2cleanBtn">
+   <property name="geometry">
+    <rect>
+     <x>1080</x>
+     <y>600</y>
+     <width>71</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>clear</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="can1cleanBtn">
+   <property name="geometry">
+    <rect>
+     <x>1080</x>
+     <y>490</y>
+     <width>71</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>clear</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="can0_id">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>491</y>
+     <width>161</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>5</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/recv5.png);</string>
+   </property>
+   <property name="text">
+    <string>CAN1接收:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="date0">
+   <property name="geometry">
+    <rect>
+     <x>355</x>
+     <y>491</y>
+     <width>65</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/can3.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="date1">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>491</y>
+     <width>65</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/can4.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="date2">
+   <property name="geometry">
+    <rect>
+     <x>485</x>
+     <y>491</y>
+     <width>65</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/can4.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="date3">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>491</y>
+     <width>65</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/can4.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="date4">
+   <property name="geometry">
+    <rect>
+     <x>615</x>
+     <y>491</y>
+     <width>65</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/can4.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="date5">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>491</y>
+     <width>65</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/can4.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="date6">
+   <property name="geometry">
+    <rect>
+     <x>745</x>
+     <y>491</y>
+     <width>65</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/can4.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="date7">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>491</y>
+     <width>65</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/can5.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="can1len">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>491</y>
+     <width>161</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/recv5.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="data9">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>600</y>
+     <width>65</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/can4.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="data15">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>600</y>
+     <width>65</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/can5.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="data11">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>600</y>
+     <width>65</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/can4.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="data12">
+   <property name="geometry">
+    <rect>
+     <x>615</x>
+     <y>600</y>
+     <width>65</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/can4.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="data8">
+   <property name="geometry">
+    <rect>
+     <x>355</x>
+     <y>600</y>
+     <width>65</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/can3.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="data10">
+   <property name="geometry">
+    <rect>
+     <x>485</x>
+     <y>600</y>
+     <width>65</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/can4.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="data13">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>600</y>
+     <width>65</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/can4.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="can1_id">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>600</y>
+     <width>161</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>5</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/recv5.png);</string>
+   </property>
+   <property name="text">
+    <string>CAN2接收:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="data14">
+   <property name="geometry">
+    <rect>
+     <x>745</x>
+     <y>600</y>
+     <width>65</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/can4.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="can2len">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>600</y>
+     <width>161</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/can/recv5.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <zorder>closeBtn</zorder>
+  <zorder>time_dis_lab</zorder>
+  <zorder>label_11</zorder>
+  <zorder>label_13</zorder>
+  <zorder>label_14</zorder>
+  <zorder>label_15</zorder>
+  <zorder>can1sendLab</zorder>
+  <zorder>can1sendBtn</zorder>
+  <zorder>can2sendLab</zorder>
+  <zorder>can2sendBtn</zorder>
+  <zorder>can1sendclearBtn</zorder>
+  <zorder>can2sendclearBtn</zorder>
+  <zorder>frame_2</zorder>
+  <zorder>can2cleanBtn</zorder>
+  <zorder>can1cleanBtn</zorder>
+  <zorder>can0_id</zorder>
+  <zorder>date0</zorder>
+  <zorder>date1</zorder>
+  <zorder>date2</zorder>
+  <zorder>date3</zorder>
+  <zorder>date4</zorder>
+  <zorder>date5</zorder>
+  <zorder>date6</zorder>
+  <zorder>date7</zorder>
+  <zorder>can1len</zorder>
+  <zorder>data9</zorder>
+  <zorder>data15</zorder>
+  <zorder>data11</zorder>
+  <zorder>data12</zorder>
+  <zorder>data8</zorder>
+  <zorder>data10</zorder>
+  <zorder>data13</zorder>
+  <zorder>can1_id</zorder>
+  <zorder>data14</zorder>
+  <zorder>can2len</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

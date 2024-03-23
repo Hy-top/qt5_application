@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FileRw</class>
+ <widget class="QWidget" name="FileRw">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/image/main_menu/background2.png);</string>
+  </property>
+  <widget class="QPushButton" name="closeBtn">
+   <property name="geometry">
+    <rect>
+     <x>43</x>
+     <y>80</y>
+     <width>116</width>
+     <height>58</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>116</width>
+     <height>58</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>116</width>
+     <height>58</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/FM/close_btn.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>1183</x>
+     <y>20</y>
+     <width>15</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/bt_down.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>1223</x>
+     <y>20</y>
+     <width>21</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/4g.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>80</y>
+     <width>849</width>
+     <height>58</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/FM/biaoti.png);</string>
+   </property>
+   <property name="text">
+    <string>文件读写测试</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>1123</x>
+     <y>20</y>
+     <width>32</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/WIFI.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="time_dis_lab">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>0</y>
+     <width>211</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Mono</family>
+     <pointsize>8</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="restart_lab">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>660</y>
+     <width>111</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:1px solid #4091BF;border-radius:10px;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>660</y>
+     <width>111</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:1px solid #4091BF;border-radius:10px;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>开机次数</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Cpu_Btn">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>670</y>
+     <width>161</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/BT/btn_img.png);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>CPU负载</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cpu_tem">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>590</y>
+     <width>161</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:1px solid #4091BF;border-radius:10px;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="text">
+    <string>CPU温度:</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>399</x>
+     <y>170</y>
+     <width>441</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="title">
+    <string>文件读写</string>
+   </property>
+   <widget class="QLabel" name="file_error_lab">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>60</y>
+      <width>181</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:1px solid #4091BF;border-radius:10px;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string>错误次数:0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="file_rw_Btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>161</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/BT/btn_img.png);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

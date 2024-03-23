@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Music</class>
+ <widget class="QWidget" name="Music">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/image/main_menu/background2.png);</string>
+  </property>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>217</x>
+     <y>80</y>
+     <width>849</width>
+     <height>58</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+background-image: url(:/image/FM/biaoti.png);</string>
+   </property>
+   <property name="text">
+    <string>蜂鸣器</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="time_dis_lab">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>211</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Mono</family>
+     <pointsize>8</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>1220</x>
+     <y>20</y>
+     <width>21</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/4g.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_btExit">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>116</width>
+     <height>58</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>116</width>
+     <height>58</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>116</width>
+     <height>58</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/FM/close_btn.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>20</y>
+     <width>32</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/WIFI.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>1180</x>
+     <y>20</y>
+     <width>15</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/main_menu/bt_down.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_start_playback">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>250</y>
+     <width>192</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>192</width>
+     <height>46</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>192</width>
+     <height>46</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+color: rgb(255, 255, 255);
+background-image: url(:/image/ASR/asr6.png);</string>
+   </property>
+   <property name="text">
+    <string>播放音乐</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_stop_playback">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>250</y>
+     <width>192</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>192</width>
+     <height>46</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>192</width>
+     <height>46</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+color: rgb(255, 255, 255);
+background-image: url(:/image/ASR/asr2.png);</string>
+   </property>
+   <property name="text">
+    <string>停止播放</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_vol_add">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>240</y>
+     <width>71</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_vol_sub">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>240</y>
+     <width>71</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_31">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>270</y>
+     <width>33</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+background-image: url(:/image/BT/jian.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>255</y>
+     <width>33</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/BT/jia.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_vol">
+   <property name="geometry">
+    <rect>
+     <x>1200</x>
+     <y>90</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>50%</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>1150</x>
+     <y>94</y>
+     <width>32</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/BT/laba.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="beep_Btn">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>330</y>
+     <width>161</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;outline:none;border:0px;
+background-image: url(:/image/BT/btn_img.png);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>打开蜂鸣器</string>
+   </property>
+  </widget>
+  <zorder>pushButton_btExit</zorder>
+  <zorder>label_11</zorder>
+  <zorder>time_dis_lab</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_14</zorder>
+  <zorder>label_13</zorder>
+  <zorder>pushButton_start_playback</zorder>
+  <zorder>pushButton_stop_playback</zorder>
+  <zorder>label_31</zorder>
+  <zorder>pushButton_vol_sub</zorder>
+  <zorder>label</zorder>
+  <zorder>pushButton_vol_add</zorder>
+  <zorder>label_vol</zorder>
+  <zorder>label_15</zorder>
+  <zorder>beep_Btn</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
